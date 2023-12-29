@@ -1,0 +1,73 @@
+<html><head><script type="text/javascript">
+
+/***********************************************
+* Textarea Maxlength script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice must stay intact for legal use.
+* Visit https://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+function ismaxlength(obj){
+var mlength=obj.getAttribute? parseInt(obj.getAttribute("maxlength")) : ""
+if (obj.getAttribute && obj.value.length>mlength)
+obj.value=obj.value.substring(0,mlength)
+}
+
+</script>
+</head>
+
+                <body>
+                        <font size="-1"><span style="font-family: Helvetica,Arial,sans-serif;">
+<form method="post" action="https://ifastnet.com/register2.php">
+<table align="center">
+<tbody><tr><th style="text-align: left;">Sub Domain Name</th><td><input type="text" name="username" size="30" value="" maxlength="16" onkeyup="return ismaxlength(this)">
+</td></tr><tr><th>&nbsp;</th><td>&nbsp;
+</td></tr><tr><th style="text-align: left;">Password</th><td><input type="password" name="password" size="30" maxlength="25" onkeyup="return ismaxlength(this)">
+</td></tr><tr><th>&nbsp;</th><td>&nbsp;
+</td></tr><tr><th style="text-align: left;">Email Address</th><td><input type="text" name="email" size="30" value="">
+
+</td></tr><tr><th>&nbsp;</th><td>&nbsp;
+</td></tr><tr><th style="text-align: left;">Site Category</th><td><select size="1" name="website_category">
+<option>Choose from Below</option>
+<option>Personal</option>
+<option>Business</option>
+<option>Hobby</option>
+<option>Forum</option>
+<option>Adult</option>
+<option>Dating</option>
+<option>Software / Download</option>
+</select>
+</td>
+
+</tr><tr><th style="text-align: left;"></th><td>
+</td></tr><tr><th>&nbsp;</th><td>
+
+
+</td></tr><tr><th style="text-align: left;">Site Language</th><td>
+
+<select size="1" name="website_language">
+<option>Choose from Below</option>
+<option>English</option>
+<option>Non-English</option>
+</select>
+</td>
+
+
+</tr><tr><th>&nbsp;</th><td>&nbsp;
+<input type="hidden" name="id" value="33e75ff09dd601bbe69f351039152189">
+
+</td></tr><tr><th style="text-align: left;">Security Code</th><td><img width="250px" height="90px" src="https://ifastnet.com/image.php?id=33e75ff09dd601bbe69f351039152189">
+</td></tr><tr><th>&nbsp;</th><td>&nbsp;
+</td></tr><tr><th style="text-align: left;">Enter Security Code</th><td><input type="text" name="number" size="30">
+</td></tr><tr><th>&nbsp;</th><td>&nbsp;
+
+</td></tr><tr><th colspan="2"><input type="submit" value="Register" name="submit">
+
+
+</th></tr></tbody></table>
+</form>
+
+     <br style="font-family: Helvetica,Arial,sans-serif;">
+      </span></font><font size="-1"><center><span style="font-family: Helvetica,Arial,sans-serif;">By signing up for free hosting you accept and agree to our <a href="https://byet.host/terms-of-service" target="_blank">Terms of Service</a></span></center></font>
+
+
+</body></html>
